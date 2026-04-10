@@ -1,0 +1,110 @@
+{
+  "profile": {
+    "name": "PURUSHOTTAM SINHA",
+    "tagline": "Senior Software Engineer | Passionate about Scalable Systems and Developer Productivity",
+    "email": "sinhapurushottam911@gmail.com",
+    "github": "https://github.com/PS-Ddevil",
+    "linkedin": "https://linkedin.com/in/InThePSinha",
+    "phone": "+91 7355414418"
+  },
+  "experiences": [
+    {
+      "year": "Aug 2025 - Present",
+      "role": "Senior Software Engineer",
+      "company": "Confluent",
+      "description": "Extended Confluent Managed Flink's Docker build system for s390x (IBM Z) architecture support and built a custom filter/search/field-projection query layer for a Spring Boot Flink management API."
+    },
+    {
+      "year": "Feb 2023 - Aug 2025",
+      "role": "Software Engineer 2",
+      "company": "Intuit",
+      "description": "Developed a scalable Spring Boot-based Approval Service in QuickBooks, handling 300K+ workflows/month across 5 entities and built a low-code API connector for REST/GraphQL integration."
+    },
+    {
+      "year": "Jul 2021 - Jan 2023",
+      "role": "Software Engineer 1",
+      "company": "Intuit",
+      "description": "Built a reliable CI/CD pipeline for Camunda template deployment using GitOps and Jenkins and implemented Spring Batch jobs to clean up obsolete workflow definitions."
+    },
+    {
+      "year": "Apr 2020 - Jul 2020",
+      "role": "Summer Intern",
+      "company": "Intuit India",
+      "description": "Optimized Workflow Hub UI using lazy loading, image optimization, and parallel API calls, reducing TP99 latency from 5.7s to 3s through performance bottleneck analysis."
+    },
+    {
+      "year": "Dec 2019 - Feb 2020",
+      "role": "Winter Intern",
+      "company": "Siemens Services and Technology",
+      "description": "Built and containerized a React + Flask ML-powered Eclipse Che plugin, deploying it via internal registry with YAML-based configuration."
+    },
+    {
+      "year": "Aug 2017 - Jul 2021",
+      "role": "B.Tech in Computer Science and Engineering",
+      "company": "Indian Institute of Technology, Mandi",
+      "description": "Graduated with a CGPA of 8.63. Minor in Management."
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages & Frameworks",
+      "items": ["Java", "Python", "JavaScript", "C/C++", "SQL", "Spring-Boot", "Flask", "React.js"]
+    },
+    {
+      "category": "Tools & Platforms",
+      "items": ["Docker", "Argo CD", "Git", "Jenkins", "Firebase", "AWS"]
+    },
+    {
+      "category": "Concepts",
+      "items": ["GenAI fundamentals", "Langchain AgentAI", "Kafka", "GitOps"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Patent(s)",
+      "detail": "Generic API connector for Springboot applications"
+    },
+    {
+      "title": "Award(s)",
+      "detail": "AI TrailBlazer (FY'25), SuperStar Award (FY'24), Stronger Together (FY'23), Customer Obsession (FY'22)"
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Integrating GitHub Copilot with IntelliJ IDEA",
+      "excerpt": "A comprehensive guide on how to supercharge your development workflow by integrating GitHub Copilot with IntelliJ IDEA.",
+      "date": "2024-05-15",
+      "author": "Purushottam Sinha",
+      "tags": ["GitHub Copilot", "IntelliJ IDEA", "AI Tools"],
+      "url": "https://purusinha.medium.com/integrating-github-copilot-with-intellij-idea-34ead7c9d54c"
+    },
+    {
+      "id": 2,
+      "title": "WireMock vs Other Frameworks",
+      "excerpt": "An in-depth comparison of WireMock against other popular mocking frameworks to help you choose the right tool for your testing needs.",
+      "date": "2024-04-10",
+      "author": "Purushottam Sinha",
+      "tags": ["WireMock", "Testing", "Mocking"],
+      "url": "https://purusinha.medium.com/wiremock-vs-other-frameworks-20822b926b96"
+    },
+    {
+      "id": 3,
+      "title": "Getting Started with Component Testing with WireMock",
+      "excerpt": "Learn how to implement effective component testing strategies using WireMock for reliable and isolated tests.",
+      "date": "2024-03-05",
+      "author": "Purushottam Sinha",
+      "tags": ["Component Testing", "WireMock", "Quality Assurance"],
+      "url": "https://purusinha.medium.com/getting-started-with-component-testing-with-wiremock-f5fba5240b18"
+    },
+    {
+      "id": 4,
+      "title": "JSON Driven JUnit Testing",
+      "excerpt": "Explore how to implement JSON-driven testing with JUnit for more flexible and maintainable test cases, separating test data from logic.",
+      "date": "2024-01-15",
+      "author": "Purushottam Sinha",
+      "tags": ["JUnit", "Testing", "JSON", "Java"],
+      "url": "https://purusinha.medium.com/json-driven-junit-testing-3592d578c264"
+    }
+  ]
+}
