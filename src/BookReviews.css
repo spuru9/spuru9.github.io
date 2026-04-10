@@ -1,0 +1,94 @@
+.book-reviews-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.reviews-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.reviews-header h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+  color: #1a2a3a;
+  margin-bottom: 10px;
+  background: linear-gradient(135deg, #1a2a3a 0%, #3498db 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.reviews-header p {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.reviews-header p::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #3498db;
+  margin: 15px auto 0;
+  border-radius: 2px;
+}
+
+.coming-soon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+.coming-soon-card {
+  text-align: center;
+  padding: 50px;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px dashed #3498db;
+  max-width: 500px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.coming-soon-card h2 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.coming-soon-card p {
+  color: #7f8c8d;
+  line-height: 1.6;
+}
+
+.coming-soon-icon {
+  font-size: 3rem;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .book-reviews-page {
+    padding: 20px 15px;
+  }
+  
+  .review-card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 20px 20px 5px;
+  }
+  
+  .review-title {
+    font-size: 1.3rem;
+  }
+  
+  .review-card-body {
+    padding: 15px 20px 25px;
+  }
+}
